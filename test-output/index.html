@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CURA_HEALTHCARE" class="navigator-link">
+              <span class="suite-name border-passed">CURA_HEALTHCARE</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CURA_HEALTHCARE" class="navigator-link ">
+                    <span>C:\Users\ADMIN\eclipse-workspace\CURA_Healtcare_Services\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CURA_HEALTHCARE" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CURA_HEALTHCARE" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CURA_HEALTHCARE" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CURA_HEALTHCARE" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CURA_HEALTHCARE" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CURA_HEALTHCARE" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CURA_HEALTHCARE" class="hide-methods passed suite-CURA_HEALTHCARE"> (hide)</a> <!-- hide-methods passed suite-CURA_HEALTHCARE -->
+                      <a href="#" panel-name="suite-CURA_HEALTHCARE" class="show-methods passed suite-CURA_HEALTHCARE"> (show)</a> <!-- show-methods passed suite-CURA_HEALTHCARE -->
+                    </span>
+                    <div class="method-list-content passed suite-CURA_HEALTHCARE">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CURA_HEALTHCARE" title="testcases.MakeAppointment" class="method navigator-link" hash-for-method="emptyvalues">emptyvalues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CURA_HEALTHCARE" title="testcases.MakeAppointment" class="method navigator-link" hash-for-method="enterdetails">enterdetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CURA_HEALTHCARE" title="testcases.Firstpage" class="method navigator-link" hash-for-method="getappoint">getappoint</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CURA_HEALTHCARE" title="testcases.Loginpage" class="method navigator-link" hash-for-method="negativelogin1(john@test.com, test123)">negativelogin1(john@test.com, test123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CURA_HEALTHCARE" title="testcases.Loginpage" class="method navigator-link" hash-for-method="negativelogin1(test, test)">negativelogin1(test, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CURA_HEALTHCARE" title="testcases.Loginpage" class="method navigator-link" hash-for-method="negativelogin1(mack, 1234.0)">negativelogin1(mack, 1234.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CURA_HEALTHCARE" title="testcases.Loginpage" class="method navigator-link" hash-for-method="negativelogin1(admin, 1234.0)">negativelogin1(admin, 1234.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CURA_HEALTHCARE" title="testcases.Loginpage" class="method navigator-link" hash-for-method="negativelogin1(john, john123)">negativelogin1(john, john123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CURA_HEALTHCARE" title="testcases.Loginpage" class="method navigator-link" hash-for-method="successfulllogin">successfulllogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CURA_HEALTHCARE" title="testcases.Firstpage" class="method navigator-link" hash-for-method="verifyafterappoint">verifyafterappoint</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CURA_HEALTHCARE" title="testcases.Firstpage" class="method navigator-link" hash-for-method="verifyurl">verifyurl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CURA_HEALTHCARE -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CURA_HEALTHCARE" class="panel CURA_HEALTHCARE">
+          <div class="suite-CURA_HEALTHCARE-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Loginpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativelogin1(john@test.com, test123)">
+                  </a> <!-- negativelogin1(john@test.com, test123) -->
+                  <span class="method-name">negativelogin1</span>
+                  <span class="parameters">(john@test.com, test123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativelogin1(test, test)">
+                  </a> <!-- negativelogin1(test, test) -->
+                  <span class="method-name">negativelogin1</span>
+                  <span class="parameters">(test, test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativelogin1(mack, 1234.0)">
+                  </a> <!-- negativelogin1(mack, 1234.0) -->
+                  <span class="method-name">negativelogin1</span>
+                  <span class="parameters">(mack, 1234.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativelogin1(admin, 1234.0)">
+                  </a> <!-- negativelogin1(admin, 1234.0) -->
+                  <span class="method-name">negativelogin1</span>
+                  <span class="parameters">(admin, 1234.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativelogin1(john, john123)">
+                  </a> <!-- negativelogin1(john, john123) -->
+                  <span class="method-name">negativelogin1</span>
+                  <span class="parameters">(john, john123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulllogin">
+                  </a> <!-- successfulllogin -->
+                  <span class="method-name">successfulllogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CURA_HEALTHCARE-class-passed -->
+          <div class="suite-CURA_HEALTHCARE-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Firstpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getappoint">
+                  </a> <!-- getappoint -->
+                  <span class="method-name">getappoint</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyafterappoint">
+                  </a> <!-- verifyafterappoint -->
+                  <span class="method-name">verifyafterappoint</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyurl">
+                  </a> <!-- verifyurl -->
+                  <span class="method-name">verifyurl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CURA_HEALTHCARE-class-passed -->
+          <div class="suite-CURA_HEALTHCARE-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.MakeAppointment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyvalues">
+                  </a> <!-- emptyvalues -->
+                  <span class="method-name">emptyvalues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterdetails">
+                  </a> <!-- enterdetails -->
+                  <span class="method-name">enterdetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CURA_HEALTHCARE-class-passed -->
+        </div> <!-- panel CURA_HEALTHCARE -->
+        <div panel-name="test-xml-CURA_HEALTHCARE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ADMIN\eclipse-workspace\CURA_Healtcare_Services\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;CURA_HEALTHCARE&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.MakeAppointment&quot;/&gt;
+      &lt;class name=&quot;testcases.Firstpage&quot;/&gt;
+      &lt;class name=&quot;testcases.Loginpage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- CURA_HEALTHCARE --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CURA_HEALTHCARE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CURA_HEALTHCARE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CURA_HEALTHCARE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CURA_HEALTHCARE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CURA_HEALTHCARE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CURA_HEALTHCARE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CURA_HEALTHCARE');
+function tableData_CURA_HEALTHCARE() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'enterdetails')
+data.setCell(0, 2, 'testcases.MakeAppointment')
+data.setCell(0, 3, 14121);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'successfulllogin')
+data.setCell(1, 2, 'testcases.Loginpage')
+data.setCell(1, 3, 9232);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'negativelogin1')
+data.setCell(2, 2, 'testcases.Loginpage')
+data.setCell(2, 3, 7250);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'negativelogin1')
+data.setCell(3, 2, 'testcases.Loginpage')
+data.setCell(3, 3, 7240);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'negativelogin1')
+data.setCell(4, 2, 'testcases.Loginpage')
+data.setCell(4, 3, 7201);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'negativelogin1')
+data.setCell(5, 2, 'testcases.Loginpage')
+data.setCell(5, 3, 7168);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'negativelogin1')
+data.setCell(6, 2, 'testcases.Loginpage')
+data.setCell(6, 3, 7144);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyafterappoint')
+data.setCell(7, 2, 'testcases.Firstpage')
+data.setCell(7, 3, 2604);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getappoint')
+data.setCell(8, 2, 'testcases.Firstpage')
+data.setCell(8, 3, 2506);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'emptyvalues')
+data.setCell(9, 2, 'testcases.MakeAppointment')
+data.setCell(9, 3, 2365);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyurl')
+data.setCell(10, 2, 'testcases.Firstpage')
+data.setCell(10, 3, 585);
+window.suiteTableData['CURA_HEALTHCARE']= { tableData: data, tableDiv: 'times-div-CURA_HEALTHCARE'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-CURA_HEALTHCARE">
+              </div> <!-- times-div-CURA_HEALTHCARE -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CURA_HEALTHCARE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CURA_HEALTHCARE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CURA_HEALTHCARE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CURA_HEALTHCARE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.MakeAppointment</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setbrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyvalues</span>
+                <span class="method-start">13273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverclose</span>
+                <span class="method-start">15664 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setbrowser</span>
+                <span class="method-start">15742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterdetails</span>
+                <span class="method-start">28196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverclose</span>
+                <span class="method-start">42326 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Firstpage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browser</span>
+                <span class="method-start">42443 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyurl</span>
+                <span class="method-start">46298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedriver</span>
+                <span class="method-start">46886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browser</span>
+                <span class="method-start">47006 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getappoint</span>
+                <span class="method-start">50627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedriver</span>
+                <span class="method-start">53134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browser</span>
+                <span class="method-start">53260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyafterappoint</span>
+                <span class="method-start">56989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedriver</span>
+                <span class="method-start">59595 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Loginpage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforepage</span>
+                <span class="method-start">59682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">successfulllogin</span>
+                <span class="method-start">63631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverclose</span>
+                <span class="method-start">72866 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforepage</span>
+                <span class="method-start">73738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativelogin1(admin, 1234.0)</span>
+                <span class="method-start">77038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverclose</span>
+                <span class="method-start">84245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforepage</span>
+                <span class="method-start">84313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativelogin1(test, test)</span>
+                <span class="method-start">87593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverclose</span>
+                <span class="method-start">94836 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforepage</span>
+                <span class="method-start">94911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativelogin1(john, john123)</span>
+                <span class="method-start">98121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverclose</span>
+                <span class="method-start">105373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforepage</span>
+                <span class="method-start">105446 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativelogin1(john@test.com, test123)</span>
+                <span class="method-start">108651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverclose</span>
+                <span class="method-start">115797 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforepage</span>
+                <span class="method-start">115886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativelogin1(mack, 1234.0)</span>
+                <span class="method-start">119131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverclose</span>
+                <span class="method-start">126301 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

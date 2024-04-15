@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CURA_HEALTHCARE">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testcases.MakeAppointment"/>
+      <class name="testcases.Firstpage"/>
+      <class name="testcases.Loginpage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
